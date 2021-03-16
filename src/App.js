@@ -5,7 +5,7 @@ import React, { useState, useEffect } from "react";
 function App() {
   const [data, setData] = useState("");
   const [city, setCity] = useState(null);
-  const apiURL = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=6719d32b652fe28155d01d21980d3432`;
+  const apiURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=6719d32b652fe28155d01d21980d3432`;
 
   useEffect(() => {
     const fetchData = async () => {
