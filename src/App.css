@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: burlywood;
+}
+
+#full-box{
+  /* border: 2px black solid; */
+  margin-top: 150px;
+  padding: 10px;
+  vertical-align: auto;
+  font-size: large;
+}
+
+#heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-family: 'Baloo Chettan 2', cursive;
+  color: brown;
+  /* border: 2px black solids; */
+}
+
+.set{
+  text-align: center;
+}
+
+.search-field{
+  width: 375px;
+  height: 23px;
+  margin: 10px;
+  text-align: center;
+  /* border: 2px green solid; */
+}
+
+.data{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  /* border: 2px red solid; */
+}
+
+span{
+  font-weight: bold;
+}
+
+ul{
+  list-style: none;
+}
+
+#no-data{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 450px){
+  
+  #heading{
+    font-size: 2.5rem;
+  }
+
+  .search-field{
+    width: 200px;
+  }
+
+  .data{
+    font-size: 10px;
+  }
+}
+
+footer{
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  bottom: 10px;
+}
